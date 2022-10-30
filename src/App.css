@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+.complete {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.not-complete {
+  box-shadow: inset 0 0 0 0 #117516;
+  color: #000000;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.not-complete:hover {
+  box-shadow: inset 800px 0 0 0 #117516;
+  color: white;
+}
+
+.icons {
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.todo-item {
+  text-align: right;
+  margin-right: 46%;
+}
